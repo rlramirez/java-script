@@ -2,8 +2,8 @@
 <html>
 <head>
 	<title>Clase 1 de JS</title>
-	<script type="text/javascript" src="js/script.js"></script>
-</head>
+	<!-- <script type="text/javascript" src="js/script.js"></script>
+</head> -->
 <body>
 	<header><h1>Plase 1 de Jaca Script</h1></header>
 	<content>
@@ -11,7 +11,18 @@
 		<p>Esta es la informacion de la pagina</p>
 	</content>
 	<script type="text/javascript">
-		alert("Este es otro saludo");
+		/*Creacion de variables*/
+		var nombre;
+		var edad;
+
+		/*Solicitud de ingreso de variables*/
+		nombre = prompt("Ingresa tu nickname");
+		edad = prompt("Ingresa tu edad");
+
+		/*presentacion de variables*/
+		alert("Your nick name is: "+nombre+ " and Your age is: "+edad);
+		document.write(nombre);
+		console.log(nombre);
 	</script>
 </body>
 </html>

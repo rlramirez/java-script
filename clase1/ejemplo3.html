@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Arreglos</title>
+</head>
+<body>
+<header><h1>Arreglos en JC</h1></header>
+<script type="text/javascript">
+	/*TIOS DE DATOS*/
+
+
+	//Array
+		var materias1=["Matematicas","Fisica","Programacion","Calculo"];
+		var materias2=["Desarrollo de software", "Base de datos"];
+
+	/*Aumentando elementos al arreglo*/
+		materias1[materias1.length]="Redes";
+		materias1.push('Fundamentos','GP3');
+		document.write("Tienes "+materias1.length+" materias");
+		materias1.pop();
+
+		var materias3=materias1.concat(materias2);
+		document.write(materias3.join(" <br> "));
+		var materias4=materias3.sort();
+
+		document.write(materias4);
+</script>
+</body>
+</html>
